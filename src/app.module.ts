@@ -10,7 +10,7 @@ import { AuthModule } from './auth/auth.module';
     ConfigModule.forRoot(),
 
     // MongooseModule.forRoot( process.env.MONGO_URI ),
-    MongooseModule.forRoot( 'mongodb://localhost:27017/mean-db' ),
+    MongooseModule.forRoot( 'mongodb://mongo:XYmLNqYIYakdYPSKDgIZjNqJNgIJANkV@junction.proxy.rlwy.net:32910' ),
 
     AuthModule,
 
