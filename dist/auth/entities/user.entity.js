@@ -39,7 +39,7 @@ __decorate([
     __metadata("design:type", Array)
 ], User.prototype, "roles", void 0);
 __decorate([
-    (0, mongoose_1.Prop)({ type: [country_entity_1.Country], default: [] }),
+    (0, mongoose_1.Prop)({ type: [country_entity_1.CountrySchema], default: [] }),
     __metadata("design:type", Array)
 ], User.prototype, "countries", void 0);
 exports.User = User = __decorate([

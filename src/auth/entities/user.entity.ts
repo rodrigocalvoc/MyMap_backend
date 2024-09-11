@@ -1,5 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { Country } from './country.entity';
+import { Country, CountrySchema } from './country.entity';
 
 @Schema()
 export class User {
@@ -21,7 +21,7 @@ export class User {
     @Prop({ type: [String], default: ['user'] })
     roles: string[];
 
-    @Prop({ type: [Country], default: [] })
+    @Prop({ type: [CountrySchema], default: [] })
     countries: Country[] = [];
 
 }
